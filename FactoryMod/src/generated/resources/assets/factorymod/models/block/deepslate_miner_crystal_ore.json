@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "factorymod:block/deepslate_miner_crystal_ore"
+  }
+}

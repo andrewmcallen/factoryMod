@@ -17,7 +17,11 @@ public class ModBlockStateProvider  extends BlockStateProvider {
     protected void registerStatesAndModels() {
 
         blockWithItem(ModBlocks.STEEL_BLOCK);
-        doorBlockWithRenderType(((DoorBlock) ModBlocks.STEEL_DOOR_BLOCK.get()), modLoc("block/steel_door_bottom"), modLoc("block/steel_door_top"), "cutout");
+        blockWithItem(ModBlocks.TIN_BLOCK);
+        blockWithItem(ModBlocks.TIN_ORE);
+        blockWithItem(ModBlocks.TIN_DEEPSLATE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_MINER_CRYSTAL_ORE);
+        doorBlockWithRenderType(((DoorBlock) ModBlocks.STEEL_DOOR.get()), modLoc("block/steel_door_bottom"), modLoc("block/steel_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.STEEL_TRAP_DOOR.get()), modLoc("block/steel_trap_door"), true, "cutout");
         pressurePlateBlock(((PressurePlateBlock) ModBlocks.STEEL_PRESSURE_PLATE.get()), blockTexture(ModBlocks.STEEL_BLOCK.get()));
         wallBlock(((WallBlock) ModBlocks.STEEL_WALL.get()), blockTexture(ModBlocks.STEEL_BLOCK.get()));

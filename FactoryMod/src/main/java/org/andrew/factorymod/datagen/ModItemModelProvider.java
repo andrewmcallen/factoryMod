@@ -45,12 +45,18 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //Items
         simpleItem(ModItems.WRENCH);
+        simpleItem(ModItems.RAW_TIN);
+        simpleItem(ModItems.TIN_INGOT);
+        simpleItem(ModItems.STEEL_INGOT);
+        simpleItem(ModItems.METAL_DETECTOR);
+        simpleItem(ModItems.MINER_CRYSTAL);
 
         //Block Items
         evenSimplerBlockItem(ModBlocks.STEEL_BLOCK);
+        evenSimplerBlockItem(ModBlocks.TIN_BLOCK);
 
         //Door, Fences, TrapDoors ect
-        simpleBlockItem(ModBlocks.STEEL_DOOR_BLOCK);
+        simpleBlockItem(ModBlocks.STEEL_DOOR);
         trapdoorItem(ModBlocks.STEEL_TRAP_DOOR);
 
         //Walls and Fences
@@ -58,7 +64,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //Slabs and Pressure Plates
         evenSimplerBlockItem(ModBlocks.STEEL_SLAB);
-        evenSimplerBlockItem(ModBlocks.STEEL_SLAB);
+        evenSimplerBlockItem(ModBlocks.STEEL_PRESSURE_PLATE);
 
         //Buttons
         buttonItem(ModBlocks.STEEL_BUTTON, ModBlocks.STEEL_BLOCK);
@@ -119,19 +125,21 @@ public class ModItemModelProvider extends ItemModelProvider {
                 new ResourceLocation(Factorymod.MODID, "item/" + item.getId().getPath()));
     }
 
-    private void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+    public void fenceItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/fence_inventory"))
                 .texture("texture", new ResourceLocation(Factorymod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
-    private void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+    public void buttonItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/button_inventory"))
                 .texture("texture", new ResourceLocation(Factorymod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
     }
 
-    private void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
+    public void wallItem(RegistryObject<Block> block, RegistryObject<Block> baseBlock) {
         this.withExistingParent(ForgeRegistries.BLOCKS.getKey(block.get()).getPath(), mcLoc("block/wall_inventory"))
-                .texture("texture", new ResourceLocation(Factorymod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+                .texture("wall", new ResourceLocation(Factorymod.MODID, "block/" + ForgeRegistries.BLOCKS.getKey(baseBlock.get()).getPath()));
+
+        
     }
 
     private void trapdoorItem(RegistryObject<Block> block) {

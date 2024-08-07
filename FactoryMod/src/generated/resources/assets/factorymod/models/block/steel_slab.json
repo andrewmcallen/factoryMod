@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "factorymod:block/steel_block",
+    "side": "factorymod:block/steel_block",
+    "top": "factorymod:block/steel_block"
+  }
+}

@@ -1,0 +1,5 @@
+// 1.20.1	2024-08-06T14:30:25.326297857	Tags for minecraft:block mod id factorymod
+93677c083ae87b51f71c076ccb29e3017d27f8ac data/factorymod/tags/blocks/metal_detector_valuables.json
+8a070829a5d80b411dceecb160fe2417bcb1439f data/minecraft/tags/blocks/mineable/pickaxe.json
+1e21417b7953c110878ea0eb8d4aac95fdcf7e2e data/minecraft/tags/blocks/needs_iron_tool.json
+31432d2272462b896dfd77685775877596dd08d5 data/minecraft/tags/blocks/walls.json

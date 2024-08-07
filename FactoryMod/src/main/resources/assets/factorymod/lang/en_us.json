@@ -1,6 +1,23 @@
 {
+  "creativetab.industrial_tab": "Industrial",
+
   "item.factorymod.wrench": "Wrench",
+  "item.factorymod.raw_tin": "Raw Tin",
+  "item.factorymod.tin_ingot": "Tin Ingot",
+  "item.factorymod.steel_ingot": "Steel Ingot",
+  "item.factorymod.metal_detector": "Metal Detector",
+  "tooltip.factorymod.metal_detector_tooltip": "Helps You Find Valuable Metal!",
+  "item.factorymod.miner_crystal": "Miner Crystal",
 
-
-  "block.factorymod.steel_block": "Block of Steel"
+  "block.factorymod.steel_block": "Block of Steel",
+  "block.factorymod.steel_door": "Steel Door",
+  "block.factorymod.steel_slab": "Steel Slab",
+  "block.factorymod.steel_wall": "Steel Wall",
+  "block.factorymod.steel_button": "Steel Button",
+  "block.factorymod.steel_pressure_plate": "Steel Pressure Plate",
+  "block.factorymod.steel_trap_door": "Steel Trapdoor",
+  "block.factorymod.tin_block": "Block of Tin",
+  "block.factorymod.tin_ore": "Tin Ore",
+  "block.factorymod.tin_deepslate_ore": "Deepslate Tin Ore",
+  "block.factorymod.deepslate_miner_crystal_ore": "Deepslate Miner Crystal Ore"
 }

@@ -1,0 +1,12 @@
+// 1.20.1	2024-08-07T09:08:42.10323127	Loot Tables
+9ccfe9c18216f4a93a85d6cc05cfeed9258d9916 data/factorymod/loot_tables/blocks/deepslate_miner_crystal_ore.json
+5b4e033f076f7831573979cced30fb988f504816 data/factorymod/loot_tables/blocks/steel_block.json
+f59f23045aca535aedb9d8d4910f305606ad9985 data/factorymod/loot_tables/blocks/steel_button.json
+3217a7823c052e771fa2dce9f72d52fc4eff7e74 data/factorymod/loot_tables/blocks/steel_door.json
+95cd050267840a41eb15727c4e3d8d4eb2b1f8c4 data/factorymod/loot_tables/blocks/steel_pressure_plate.json
+84cd2556c699fd2f2b23c8b98bc71be727fedf2e data/factorymod/loot_tables/blocks/steel_slab.json
+5a1a71b1932d79635ffdbc4f0f3ff685732a7ca3 data/factorymod/loot_tables/blocks/steel_trap_door.json
+9b83de5c80669ec0cfc515aa511dff67e59238d3 data/factorymod/loot_tables/blocks/steel_wall.json
+d4da0b09d74c1950cda6011ba21377d8b676456d data/factorymod/loot_tables/blocks/tin_block.json
+529837bbc180d2589a3e0625d60fe80a6bb8fdd9 data/factorymod/loot_tables/blocks/tin_deepslate_ore.json
+9dad8a807c7bfc0a3f4783d4d27bb0fb9736dec1 data/factorymod/loot_tables/blocks/tin_ore.json
